@@ -15,7 +15,10 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var messageTextfield: UITextField!
     
     override func viewDidLoad() {
+        title = "⚡️FlashChat"
         super.viewDidLoad()
+        
+        navigationItem.hidesBackButton = true
 
     }
     
