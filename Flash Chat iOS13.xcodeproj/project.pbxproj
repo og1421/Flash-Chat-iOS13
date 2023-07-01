@@ -21,6 +21,8 @@
 		852F15AD2A4938340064F29A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 852F15AC2A4938340064F29A /* Alamofire */; };
 		858DC7C22A4A711300EDC16B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 858DC7C12A4A711300EDC16B /* GoogleService-Info.plist */; };
 		858DC7C52A4A729200EDC16B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 858DC7C42A4A729200EDC16B /* FirebaseAuth */; };
+		85A51C252A509866007385AE /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A51C232A509866007385AE /* MessageCell.swift */; };
+		85A51C262A509866007385AE /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A51C242A509866007385AE /* MessageCell.xib */; };
 		85D05F152A4E6382001E1290 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D05F142A4E6382001E1290 /* Constants.swift */; };
 		85D05F172A4E671B001E1290 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D05F162A4E671B001E1290 /* Message.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,8 @@
 		53DADFAA1D84DB4A6CFF6B1D /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 		6712D967426B53F1C6CA269B /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858DC7C12A4A711300EDC16B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85A51C232A509866007385AE /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		85A51C242A509866007385AE /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		85D05F142A4E6382001E1290 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		85D05F162A4E671B001E1290 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat iOS13/Message.swift"; sourceTree = SOURCE_ROOT; };
 		B83E519A1CAA9433406B6B68 /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				85A51C232A509866007385AE /* MessageCell.swift */,
+				85A51C242A509866007385AE /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				85A51C262A509866007385AE /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				858DC7C22A4A711300EDC16B /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
@@ -274,6 +281,7 @@
 				85D05F172A4E671B001E1290 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				85A51C252A509866007385AE /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
