@@ -58,7 +58,7 @@ class ChatViewController: UIViewController {
             self.messages = []
             
             if let e = error {
-                print("There was an issue retrieving data from server ")
+                print("There was an issue retrieving data from server: \(e)")
             } else {
                 if let snapshotDocuments = querySnapshot?.documents {
                     for doc in snapshotDocuments {
